@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE3F2051EB46BF4009CE42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2041EB46BF4009CE42A /* AppDelegate.swift */; };
+		EFE3F2071EB46BF4009CE42A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2061EB46BF4009CE42A /* ViewController.swift */; };
+		EFE3F20A1EB46BF4009CE42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE3F2081EB46BF4009CE42A /* Main.storyboard */; };
+		EFE3F20C1EB46BF5009CE42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE3F20B1EB46BF5009CE42A /* Assets.xcassets */; };
+		EFE3F20F1EB46BF5009CE42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE3F20D1EB46BF5009CE42A /* LaunchScreen.storyboard */; };
+		EFE3F21A1EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2191EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift */; };
+		EFE3F2251EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2241EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE3F2161EB46BF5009CE42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE3F1F91EB46BF4009CE42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE3F2001EB46BF4009CE42A;
+			remoteInfo = "Snap-Review-iOS-Demo";
+		};
+		EFE3F2211EB46BF5009CE42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE3F1F91EB46BF4009CE42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE3F2001EB46BF4009CE42A;
+			remoteInfo = "Snap-Review-iOS-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFE3F2011EB46BF4009CE42A /* Snap-Review-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap-Review-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3F2041EB46BF4009CE42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE3F2061EB46BF4009CE42A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFE3F2091EB46BF4009CE42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE3F20B1EB46BF5009CE42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE3F20E1EB46BF5009CE42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE3F2101EB46BF5009CE42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3F2151EB46BF5009CE42A /* Snap-Review-iOS-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap-Review-iOS-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3F2191EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_Review_iOS_DemoTests.swift; sourceTree = "<group>"; };
+		EFE3F21B1EB46BF5009CE42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3F2201EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap-Review-iOS-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3F2241EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_Review_iOS_DemoUITests.swift; sourceTree = "<group>"; };
+		EFE3F2261EB46BF5009CE42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE3F1FE1EB46BF4009CE42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3F2121EB46BF5009CE42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3F21D1EB46BF5009CE42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE3F1F81EB46BF4009CE42A = {
+			isa = PBXGroup;
+			children = (
+				EFE3F2031EB46BF4009CE42A /* Snap-Review-iOS-Demo */,
+				EFE3F2181EB46BF5009CE42A /* Snap-Review-iOS-DemoTests */,
+				EFE3F2231EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests */,
+				EFE3F2021EB46BF4009CE42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE3F2021EB46BF4009CE42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3F2011EB46BF4009CE42A /* Snap-Review-iOS-Demo.app */,
+				EFE3F2151EB46BF5009CE42A /* Snap-Review-iOS-DemoTests.xctest */,
+				EFE3F2201EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE3F2031EB46BF4009CE42A /* Snap-Review-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3F2041EB46BF4009CE42A /* AppDelegate.swift */,
+				EFE3F2061EB46BF4009CE42A /* ViewController.swift */,
+				EFE3F2081EB46BF4009CE42A /* Main.storyboard */,
+				EFE3F20B1EB46BF5009CE42A /* Assets.xcassets */,
+				EFE3F20D1EB46BF5009CE42A /* LaunchScreen.storyboard */,
+				EFE3F2101EB46BF5009CE42A /* Info.plist */,
+			);
+			path = "Snap-Review-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		EFE3F2181EB46BF5009CE42A /* Snap-Review-iOS-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3F2191EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift */,
+				EFE3F21B1EB46BF5009CE42A /* Info.plist */,
+			);
+			path = "Snap-Review-iOS-DemoTests";
+			sourceTree = "<group>";
+		};
+		EFE3F2231EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3F2241EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift */,
+				EFE3F2261EB46BF5009CE42A /* Info.plist */,
+			);
+			path = "Snap-Review-iOS-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE3F2001EB46BF4009CE42A /* Snap-Review-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3F2291EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-Demo" */;
+			buildPhases = (
+				EFE3F1FD1EB46BF4009CE42A /* Sources */,
+				EFE3F1FE1EB46BF4009CE42A /* Frameworks */,
+				EFE3F1FF1EB46BF4009CE42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snap-Review-iOS-Demo";
+			productName = "Snap-Review-iOS-Demo";
+			productReference = EFE3F2011EB46BF4009CE42A /* Snap-Review-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE3F2141EB46BF5009CE42A /* Snap-Review-iOS-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3F22C1EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-DemoTests" */;
+			buildPhases = (
+				EFE3F2111EB46BF5009CE42A /* Sources */,
+				EFE3F2121EB46BF5009CE42A /* Frameworks */,
+				EFE3F2131EB46BF5009CE42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE3F2171EB46BF5009CE42A /* PBXTargetDependency */,
+			);
+			name = "Snap-Review-iOS-DemoTests";
+			productName = "Snap-Review-iOS-DemoTests";
+			productReference = EFE3F2151EB46BF5009CE42A /* Snap-Review-iOS-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE3F21F1EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3F22F1EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-DemoUITests" */;
+			buildPhases = (
+				EFE3F21C1EB46BF5009CE42A /* Sources */,
+				EFE3F21D1EB46BF5009CE42A /* Frameworks */,
+				EFE3F21E1EB46BF5009CE42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE3F2221EB46BF5009CE42A /* PBXTargetDependency */,
+			);
+			name = "Snap-Review-iOS-DemoUITests";
+			productName = "Snap-Review-iOS-DemoUITests";
+			productReference = EFE3F2201EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE3F1F91EB46BF4009CE42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "IO Dzeranov";
+				TargetAttributes = {
+					EFE3F2001EB46BF4009CE42A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					EFE3F2141EB46BF5009CE42A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFE3F2001EB46BF4009CE42A;
+					};
+					EFE3F21F1EB46BF5009CE42A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFE3F2001EB46BF4009CE42A;
+					};
+				};
+			};
+			buildConfigurationList = EFE3F1FC1EB46BF4009CE42A /* Build configuration list for PBXProject "Snap-Review-iOS-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE3F1F81EB46BF4009CE42A;
+			productRefGroup = EFE3F2021EB46BF4009CE42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE3F2001EB46BF4009CE42A /* Snap-Review-iOS-Demo */,
+				EFE3F2141EB46BF5009CE42A /* Snap-Review-iOS-DemoTests */,
+				EFE3F21F1EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE3F1FF1EB46BF4009CE42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3F20F1EB46BF5009CE42A /* LaunchScreen.storyboard in Resources */,
+				EFE3F20C1EB46BF5009CE42A /* Assets.xcassets in Resources */,
+				EFE3F20A1EB46BF4009CE42A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3F2131EB46BF5009CE42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3F21E1EB46BF5009CE42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE3F1FD1EB46BF4009CE42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3F2071EB46BF4009CE42A /* ViewController.swift in Sources */,
+				EFE3F2051EB46BF4009CE42A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3F2111EB46BF5009CE42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3F21A1EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE3F21C1EB46BF5009CE42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3F2251EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE3F2171EB46BF5009CE42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE3F2001EB46BF4009CE42A /* Snap-Review-iOS-Demo */;
+			targetProxy = EFE3F2161EB46BF5009CE42A /* PBXContainerItemProxy */;
+		};
+		EFE3F2221EB46BF5009CE42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE3F2001EB46BF4009CE42A /* Snap-Review-iOS-Demo */;
+			targetProxy = EFE3F2211EB46BF5009CE42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE3F2081EB46BF4009CE42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE3F2091EB46BF4009CE42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE3F20D1EB46BF5009CE42A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE3F20E1EB46BF5009CE42A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE3F2271EB46BF5009CE42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFE3F2281EB46BF5009CE42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE3F22A1EB46BF5009CE42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Snap-Review-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Snap-Review-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFE3F22B1EB46BF5009CE42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Snap-Review-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Snap-Review-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFE3F22D1EB46BF5009CE42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Snap-Review-iOS-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Snap-Review-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap-Review-iOS-Demo.app/Snap-Review-iOS-Demo";
+			};
+			name = Debug;
+		};
+		EFE3F22E1EB46BF5009CE42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Snap-Review-iOS-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Snap-Review-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap-Review-iOS-Demo.app/Snap-Review-iOS-Demo";
+			};
+			name = Release;
+		};
+		EFE3F2301EB46BF5009CE42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Snap-Review-iOS-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Snap-Review-iOS-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Snap-Review-iOS-Demo";
+			};
+			name = Debug;
+		};
+		EFE3F2311EB46BF5009CE42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Snap-Review-iOS-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Snap-Review-iOS-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Snap-Review-iOS-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE3F1FC1EB46BF4009CE42A /* Build configuration list for PBXProject "Snap-Review-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3F2271EB46BF5009CE42A /* Debug */,
+				EFE3F2281EB46BF5009CE42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE3F2291EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3F22A1EB46BF5009CE42A /* Debug */,
+				EFE3F22B1EB46BF5009CE42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE3F22C1EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3F22D1EB46BF5009CE42A /* Debug */,
+				EFE3F22E1EB46BF5009CE42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE3F22F1EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3F2301EB46BF5009CE42A /* Debug */,
+				EFE3F2311EB46BF5009CE42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE3F1F91EB46BF4009CE42A /* Project object */;
+}
