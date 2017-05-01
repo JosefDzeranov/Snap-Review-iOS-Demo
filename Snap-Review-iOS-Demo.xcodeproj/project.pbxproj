@@ -14,6 +14,7 @@
 		EFE3F20F1EB46BF5009CE42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE3F20D1EB46BF5009CE42A /* LaunchScreen.storyboard */; };
 		EFE3F21A1EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2191EB46BF5009CE42A /* Snap_Review_iOS_DemoTests.swift */; };
 		EFE3F2251EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2241EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift */; };
+		EFE3F2351EB7C706009CE42A /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3F2341EB7C706009CE42A /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EFE3F2201EB46BF5009CE42A /* Snap-Review-iOS-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap-Review-iOS-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE3F2241EB46BF5009CE42A /* Snap_Review_iOS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_Review_iOS_DemoUITests.swift; sourceTree = "<group>"; };
 		EFE3F2261EB46BF5009CE42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3F2341EB7C706009CE42A /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EFE3F20B1EB46BF5009CE42A /* Assets.xcassets */,
 				EFE3F20D1EB46BF5009CE42A /* LaunchScreen.storyboard */,
 				EFE3F2101EB46BF5009CE42A /* Info.plist */,
+				EFE3F2341EB7C706009CE42A /* LogoutViewController.swift */,
 			);
 			path = "Snap-Review-iOS-Demo";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFE3F2071EB46BF4009CE42A /* ViewController.swift in Sources */,
+				EFE3F2351EB7C706009CE42A /* LogoutViewController.swift in Sources */,
 				EFE3F2051EB46BF4009CE42A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				EFE3F22B1EB46BF5009CE42A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE3F22C1EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				EFE3F22E1EB46BF5009CE42A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE3F22F1EB46BF5009CE42A /* Build configuration list for PBXNativeTarget "Snap-Review-iOS-DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				EFE3F2311EB46BF5009CE42A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

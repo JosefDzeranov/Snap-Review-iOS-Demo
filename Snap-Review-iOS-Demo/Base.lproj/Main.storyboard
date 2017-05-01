@@ -36,10 +36,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Logout View Controller-->
         <scene sceneID="2mC-cB-Mrc">
             <objects>
-                <viewController id="KGn-yj-34p" sceneMemberID="viewController">
+                <viewController id="KGn-yj-34p" customClass="LogoutViewController" customModule="Snap_Review_iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bEf-0P-Emc"/>
                         <viewControllerLayoutGuide type="bottom" id="WSY-Wj-FDi"/>
