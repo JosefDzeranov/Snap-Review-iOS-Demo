@@ -28,7 +28,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    //MARK: Actions
+    @IBAction func touchDown(_ sender: Any) {
+    print("this is action method for touch down button Login")
+        
+    }
 
 }
 

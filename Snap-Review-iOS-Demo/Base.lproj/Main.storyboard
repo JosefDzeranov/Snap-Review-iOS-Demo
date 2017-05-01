@@ -26,6 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="LOGIN"/>
                                 <connections>
+                                    <action selector="touchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Ad0-kz-Kze"/>
                                     <segue destination="KGn-yj-34p" kind="show" id="v27-nd-w4S"/>
                                 </connections>
                             </button>
